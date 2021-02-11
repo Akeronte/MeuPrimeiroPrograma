@@ -1,10 +1,10 @@
 package meuPrimeiroProgramaJava;
 
 import java.util.Scanner;
-
-// @autor Lucas Figueiredo Ventura
-//Data: 3/02/2021
-
+/*
+* @autor Lucas Figueiredo Ventura
+*Data: 3/02/2021
+*/
 
 public class Principal {
 	public static void main(String[] args) {
@@ -12,7 +12,7 @@ public class Principal {
 	Scanner in = new Scanner(System.in);
 	String  nome = in.nextLine();
 	
-	System.out.printf("Ol· %s", nome);
+	System.out.printf("Ol√° %s", nome);
 	in.close();
 	}
 }
